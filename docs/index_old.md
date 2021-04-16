@@ -1,27 +1,58 @@
-<img src="/img/il_logo.png" width="250"/>
+# Welcome to MkDocs
 
-<h1 align="center">Spelman Innovation Lab Documentation</h1>
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-<h2 align="center"><i>Welcome!</i></h2>
-<br/>
-<br/>
+## Commands
 
-<div>
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+
+
+Where is this??
+
+<div style="width:170px; height:170px; margin:auto">
         <style type="text/css">
             
         .il_icon {
-            width: 72px;
+            width: 36px;
         }
+        
+        /* The icon width (set in .il_icon) is set to 36.
+         The original icons had a width of 20.  This
+         increase of 16 needs to be reflected in a number of places.
+         - In .logo-container and .img-container and .icons-container,
+         the width and height is changed from from 144 to 160.
+         (not sure this is required for .img-container)
+         - In .icon-box, the width is changed from 72 to 80.  The
+         height is changed from 20 to 36.  The top is calculated
+         as width-height.  Previsously, this was set to 52 (72-20).
+         It is now set to 44 (80-36).
+         - width and height in both .icon-inner and .icon are set to
+         36 (previously 20).
+         - width in .il_icon is set to 36.
+         */
 
         .foot_bar {
             border-radius: 0px;
             xbackground: #f0f0f0;
             padding: 10px;
+            
+
+          
         }
         
         .img-container {
-            width: 288px;
-            height: 288px;
+            width: 144px;
+            height: 144px;
             position: relative;
             xborder-radius: 100rem;
             xdisplay: flex;
@@ -32,8 +63,8 @@
             display: block        }
         
         .logo-container {
-            width: 288px;
-            height: 288px;
+            width: 144px;
+            height: 144px;
             xbackground: lightgreen;
             position: absolute;
             top: 0px;
@@ -44,8 +75,8 @@
         }
         
         .icons-container {
-            width: 288px;
-            height: 288px;
+            width: 144px;
+            height: 144px;
             xbackground: pink;
             position: absolute;
             top: 0px;
@@ -59,22 +90,22 @@
         }
         
         .icon-box {
-            width: 108px;
-            height: 72px;
-            transform-origin: center right;
+            width: 72px;
+            height: 36px;
+            transform-origin: bottom right;
             position: absolute;
-            top: 72px
+            top: 36px
         }
          
         .icon-inner {
-            width: 0px;
-            height: 0px;
+            width: 36px;
+            height: 36px
         }
         
-        .icon_div {
+        .xicon {
             background-size: cover;
-            width: 72px;
-            height: 72px;
+            width: 36px;
+            height: 36px;
             animation: rotate 30s linear reverse infinite
         }
         
@@ -139,6 +170,33 @@
             transform: rotateZ(-315deg)
         }
         
+        
+       
+       
+        @keyframes spin {
+            0% {
+                transform: rotateY(-90deg)
+            }
+            100% {
+                transform: rotateY(90deg)
+            }
+        }
+        
+        @keyframes spin-begin {
+            0% {
+                transform: rotateY(0)
+            }
+            10% {
+                transform: rotateY(90deg)
+            }
+            90% {
+                transform: rotateY(90deg)
+            }
+            100% {
+                transform: rotateY(0)
+            }
+        }
+        
         @keyframes rotate {
             0% {
                 transform: rotateZ(0)
@@ -146,7 +204,8 @@
             100% {
                 transform: rotateZ(360deg)
             }
-        }       
+        }
+        
 
         </style>
 
@@ -155,62 +214,62 @@
             <div class="img-container">
                 
                 <div class="logo-container">
-                    <img src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_00.png" width="128"></img>
+                    <img src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_00.png" width="64"></img>
                 </div>
                 
                 <div class="icons-container">
                     <div class="icon-box icon-box-1">
                         <div class="icon-inner icon-inner-1">
-                            <div class="icon_div">
+                            <div class="xicon icon-1">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_01.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-2">
                         <div class="icon-inner icon-inner-2">
-                            <div class="icon_div">
+                            <div class="xicon icon-2">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_02.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-3">
                         <div class="icon-inner icon-inner-3">
-                            <div class="icon_div">
+                            <div class="xicon icon-3">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_03.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-4">
                         <div class="icon-inner icon-inner-4">
-                            <div class="icon_div">
+                            <div class="xicon icon-4">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_04.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-5">
                         <div class="icon-inner icon-inner-5">
-                            <div class="icon_div">
+                            <div class="xicon icon-5">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_05.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-6">
                         <div class="icon-inner icon-inner-6">
-                            <div class="icon_div">
+                            <div class="xicon icon-6">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_06.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-7">
                         <div class="icon-inner icon-inner-7">
-                            <div class="icon_div">
+                            <div class="xicon icon-7">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_07.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-8">
                         <div class="icon-inner icon-inner-8">
-                            <div class="icon_div">
+                            <div class="xicon icon-8">
                                 <img class="il_icon" src="https://github.com/jvolcy/il_web_assets/raw/main/il_icons/icon_08.png"></img>
                             </div>
                         </div>
@@ -222,8 +281,4 @@
 </div>
 
 
-
-<br/><br/><br/><hr/>
-<p align="center">
-<img src="/img/il_logo.png" width="100"/>
-</p>
+Where does this show up??
