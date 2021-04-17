@@ -1,6 +1,6 @@
 site_name: Spelman Innovaiton Lab Docs
 
-site_dir: '..'
+site_dir: '../docs'
 
 theme:
   name: 'readthedocs'
