@@ -65,5 +65,5 @@ MacOS generates a number of temporary files (some hidden, some not) that you wil
 
 <br><hr>
 <p align="center">
-<img src="/img/il_logo.png" width="100">
+<img src="/images/il_logo.png" width="100">
 </p>

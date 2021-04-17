@@ -1,4 +1,4 @@
-<img src="/img/il_logo.png" width="250"/>
+<img src="/images/il_logo.png" width="250"/>
 
 <h1 align="center">Spelman Innovation Lab Documentation</h1>
 
@@ -155,63 +155,63 @@
             <div class="img-container">
                 
                 <div class="logo-container">
-                    <img src="../images/icon_00.png" width="128"></img>
+                    <img src="images/icon_00.png" width="128"></img>
                 </div>
                 
                 <div class="icons-container">
                     <div class="icon-box icon-box-1">
                         <div class="icon-inner icon-inner-1">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_01.png"></img>
+                                <img class="il_icon" src="images/icon_01.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-2">
                         <div class="icon-inner icon-inner-2">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_02.png"></img>
+                                <img class="il_icon" src="images/icon_02.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-3">
                         <div class="icon-inner icon-inner-3">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_03.png"></img>
+                                <img class="il_icon" src="images/icon_03.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-4">
                         <div class="icon-inner icon-inner-4">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_04.png"></img>
+                                <img class="il_icon" src="images/icon_04.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-5">
                         <div class="icon-inner icon-inner-5">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_05.png"></img>
+                                <img class="il_icon" src="images/icon_05.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-6">
                         <div class="icon-inner icon-inner-6">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_06.png"></img>
+                                <img class="il_icon" src="images/icon_06.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-7">
                         <div class="icon-inner icon-inner-7">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_07.png"></img>
+                                <img class="il_icon" src="images/icon_07.png"></img>
                             </div>
                         </div>
                     </div>
                     <div class="icon-box icon-box-8">
                         <div class="icon-inner icon-inner-8">
                             <div class="icon_div">
-                                <img class="il_icon" src="../images/icon_08.png"></img>
+                                <img class="il_icon" src="images/icon_08.png"></img>
                             </div>
                         </div>
                     </div>
@@ -225,5 +225,5 @@
 
 <br/><br/><br/><hr/>
 <p align="center">
-<img src="/img/il_logo.png" width="100"/>
+<img src="/images/il_logo.png" width="100"/>
 </p>
