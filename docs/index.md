@@ -6,6 +6,8 @@
 <br/>
 <br/>
 
+
+
 <!--------- BEGIN: Draw the medallion --------->
 <div>
         <style type="text/css">
@@ -224,9 +226,32 @@
 
 <!--------- END: Draw the medallion --------->
 
+<style type="text/css">
+	img[src$="centerme"] {
+	  display:block;
+	  margin: 0 auto;
+	}
+</style>
 
+<style type="text/css">
+	img[src$="scale10"] {
+	  display:block;
+	  margin: 0 auto;
+	  width:10%;
+	}
+</style>
+
+
+xxxx
+
+![A cute kitten](medallion/icon_08.png?style=centerme)
+xxxx
+<br/>
+![A cute kitten](medallion/icon_08.png?style=scale10)
 
 <br/><br/><br/><hr/>
 <p align="center">
 <img src="images/il_logo.png" width="100"/>
 </p>
+
+

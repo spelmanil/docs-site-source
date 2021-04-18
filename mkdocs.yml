@@ -8,4 +8,5 @@ theme:
 
 nav:
     - Home: index.md
-    - Unity & GitHub: Unity_and_GitHub.md
+    - Unity & GitHub: Unity_and_GitHub/Unity_and_GitHub.md
+    - Page1: page1.md
