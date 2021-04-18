@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/css/images.css" />
+
 Unity and GitHub
 ================
 
@@ -7,9 +9,7 @@ Instructions for using GitHub with Unity Personal
 
 For Unity Personal, GitHub integration is not included.  This guide explains how to use GitHub with Unity Personal.  The guide is written for Mac users, but the outlined procedure should be similar for Windows users.  A prerequisite for this guide is having the GitHub Desktop application installed on your system.  You may download GitHub Desktop [here](https://desktop.github.com/) .
 
-<p align="center">
-<img src="git_hub_logo.jpg" width="300">
-</p>
+![](Unity_and_GitHub/git_hub_logo.jpg?style=center50)
 
 Begin by selecting an existing Unity project that you want to put under GitHub control.  If you are creating a new project, create the project *before* creating the repository for it.  Unity will not create a project in an existing directory.
 
@@ -21,9 +21,8 @@ Follow the steps below to get the project under GitHub control:
 
 **Step 1:** From the GitHub Desktop interface, select “Create New Repository”
 
-<p align="center">
-<img src="Fig1.png" width="800">
-</p>
+![](Unity_and_GitHub/Fig1.png?style=center90)
+
 <br>
 
 **Step 2:** Refer to the figure below to fill in the popup window that appears.
@@ -38,10 +37,7 @@ Follow the steps below to get the project under GitHub control:
 
 Done.  If you are logged into your GitHub a/c, you should be immediately able to push the new repository to GitHub.
 
-<p align="center">
-<img src="Fig2.png" width="500">
-</p>
-<br>
+![](Unity_and_GitHub/Fig2.png?style=center60)
 
 **Step 3:** *(optional; for Mac users only)*
 
@@ -64,6 +60,5 @@ MacOS generates a number of temporary files (some hidden, some not) that you wil
 
 
 <br><hr>
-<p align="center">
-<img src="../images/il_logo.png" width="100">
-</p>
+
+![](images/il_logo.png?style=center20)

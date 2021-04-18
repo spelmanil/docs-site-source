@@ -1,5 +1,7 @@
 site_name: Spelman Innovaiton Lab Docs
 
+site_url: https://spelmanil.github.io/docs
+
 site_dir: '../docs'
 
 theme:
@@ -8,5 +10,5 @@ theme:
 
 nav:
     - Home: index.md
-    - Unity & GitHub: Unity_and_GitHub/Unity_and_GitHub.md
+    - Unity & GitHub: Unity_and_GitHub.md
     - Page1: page1.md
