@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="images.css" />
+
 <img src="images/il_logo.png" width="250"/>
 
 <h1 align="center">Spelman Innovation Lab Documentation</h1>
@@ -226,32 +228,19 @@
 
 <!--------- END: Draw the medallion --------->
 
-<style type="text/css">
-	img[src$="centerme"] {
-	  display:block;
-	  margin: 0 auto;
-	}
-</style>
-
-<style type="text/css">
-	img[src$="scale10"] {
-	  display:block;
-	  margin: 0 auto;
-	  width:10%;
-	}
-</style>
-
-
 xxxx
 
-![A cute kitten](medallion/icon_08.png?style=centerme)
+![A cute kitten](medallion/icon_08.png?style=scale20)
 xxxx
 <br/>
-![A cute kitten](medallion/icon_08.png?style=scale10)
+![A cute kitten](medallion/icon_08.png?style=center10)
+
 
 <br/><br/><br/><hr/>
 <p align="center">
 <img src="images/il_logo.png" width="100"/>
 </p>
 
-
+![](images/il_logo.png?style=scale20)
+![](images/il_logo.png?style=right20)
+![](images/il_logo.png?style=right20)

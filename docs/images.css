@@ -1,0 +1,264 @@
+/*
+ * styles for md images.
+ * centerXX --> centers the image and scales it to XX%
+ * leftXX --> left align the image and scales it to XX%
+ * rightXX --> right align the image and scales it to XX%
+ * scaleXX --> scales the image to XX%
+ *
+ * Valid values of XX are 100, 90, 80 ... 10.
+ * Use with URL parameters when embedding an image in MD doc.
+ * Example1:
+   ![Alt Text 1](url1/image1.png?style=center70)
+ *
+ * inserts image1.png located at url1 into the MD document at 70% scale and centered in the document.
+ *
+ * Example2
+   ![Alt Text 2](url2/image2.png?style=scale30)
+   * inserts image2.png located at url2 into the MD document at 30% scale using the default alingment (left by default).
+ */
+<style type="text/css">
+
+/* ---------- Center & Scale Image ---------- */
+	img[src$="center100"] {
+	  display:block;
+	  margin:0 auto;
+    width:100%;
+	}
+
+	img[src$="center90"] {
+	  display:block;
+	  margin:0 auto;
+    width:90%;
+	}
+
+	img[src$="center80"] {
+	  display:block;
+	  margin:0 auto;
+    width:80%;
+	}
+
+	img[src$="center70"] {
+	  display:block;
+	  margin:0 auto;
+    width:70%;
+	}
+
+	img[src$="center60"] {
+	  display:block;
+	  margin:0 auto;
+    width:60%;
+	}
+
+	img[src$="center50"] {
+	  display:block;
+	  margin:0 auto;
+    width:50%;
+	}
+
+	img[src$="center40"] {
+	  display:block;
+	  margin:0 auto;
+    width:40%;
+	}
+
+	img[src$="center30"] {
+	  display:block;
+	  margin:0 auto;
+    width:30%;
+	}
+
+	img[src$="center20"] {
+	  display:block;
+	  margin:0 auto;
+    width:20%;
+	}
+
+	img[src$="center10"] {
+	  display:block;
+	  margin:0 auto;
+    width:10%;
+	}
+
+	/* ---------- Left Align & Scale Image ---------- */
+	img[src$="left100"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:100%;
+	}
+
+	img[src$="left90"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:90%;
+	}
+
+	img[src$="left80"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:80%;
+	}
+
+	img[src$="left70"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:70%;
+	}
+
+	img[src$="left60"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:60%;
+	}
+
+	img[src$="left50"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:50%;
+	}
+
+	img[src$="left40"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:40%;
+	}
+
+	img[src$="left30"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:30%;
+	}
+
+	img[src$="left20"] {
+		display:block;
+		margin:0;
+		float:left;
+    width:20%;
+	}
+
+	img[src$="left10"] {
+		display:block;
+		margin:0;
+		float:left;
+	  width:10%;
+	}
+
+	/* ---------- Right Align & Scale Image ---------- */
+	img[src$="right100"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:100%;
+	}
+
+	img[src$="right90"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:90%;
+	}
+
+	img[src$="right80"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:80%;
+	}
+
+	img[src$="right70"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:70%;
+	}
+
+	img[src$="right60"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:60%;
+	}
+
+	img[src$="right50"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:50%;
+	}
+
+	img[src$="right40"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:40%;
+	}
+
+	img[src$="right30"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:30%;
+	}
+
+	img[src$="right20"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:20%;
+	}
+
+	img[src$="right10"] {
+	display:block;
+	margin:0;
+	float:right;
+	width:10%;
+	}
+
+	/* ---------- Scale Image Using Default Alignment ---------- */
+	img[src$="scale100"] {
+    width:100%;
+	}
+
+	img[src$="scale90"] {
+    width:90%;
+	}
+
+	img[src$="scale80"] {
+    width:80%;
+	}
+
+	img[src$="scale70"] {
+    width:70%;
+	}
+
+	img[src$="scale60"] {
+    width:60%;
+	}
+
+	img[src$="scale50"] {
+    width:50%;
+	}
+
+	img[src$="scale40"] {
+    width:40%;
+	}
+
+	img[src$="scale30"] {
+    width:30%;
+	}
+
+	img[src$="scale20"] {
+    width:20%;
+	}
+
+	img[src$="scale10"] {
+    width:10%;
+	}
+</style>
