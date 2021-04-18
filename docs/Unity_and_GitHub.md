@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/images.css" />
+<link rel="stylesheet" href="../css/images.css" />
 
 Unity and GitHub
 ================
