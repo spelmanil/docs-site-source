@@ -1,20 +1,16 @@
 <link rel="stylesheet" href="css/images.css" />
 
-![](images/il_logo.png?style=scale40)
+![](images/il_logo.png?style=scale30)
 
 
 <h1 align="center">Spelman Innovation Lab Documentation</h1>
 
 <h2 align="center"><i>Welcome!</i></h2>
-<br/>
-<br/>
-
-
 
 <!--------- BEGIN: Draw the medallion --------->
 <div>
         <style type="text/css">
-            
+
         .il_icon {
             width: 72px;
         }
@@ -24,7 +20,7 @@
             xbackground: #f0f0f0;
             padding: 10px;
         }
-        
+
         .img-container {
             width: 288px;
             height: 288px;
@@ -36,7 +32,7 @@
             margin-left: auto;
             margin-right: auto;
             display: block        }
-        
+
         .logo-container {
             width: 288px;
             height: 288px;
@@ -48,7 +44,7 @@
             align-items: center;
             justify-content: center
         }
-        
+
         .icons-container {
             width: 288px;
             height: 288px;
@@ -57,13 +53,13 @@
             top: 0px;
             left: 0px
         }
-        
+
 
         .icons-container {
             animation: rotate 30s linear infinite;
             transform-origin: center
         }
-        
+
         .icon-box {
             width: 108px;
             height: 72px;
@@ -71,80 +67,80 @@
             position: absolute;
             top: 72px
         }
-         
+
         .icon-inner {
             width: 0px;
             height: 0px;
         }
-        
+
         .icon_div {
             background-size: cover;
             width: 72px;
             height: 72px;
             animation: rotate 30s linear reverse infinite
         }
-        
+
 
         .icon-box-1 {
             transform: rotate(0)
         }
-        
+
         .icon-box-2 {
             transform: rotate(45deg)
         }
-        
+
         .icon-inner-2 {
             transform: rotateZ(-45deg)
         }
-        
+
         .icon-box-3 {
             transform: rotate(90deg)
         }
-        
+
         .icon-inner-3 {
             transform: rotateZ(-90deg)
         }
-        
+
         .icon-box-4 {
             transform: rotate(135deg)
         }
-        
+
         .icon-inner-4 {
             transform: rotateZ(-135deg)
         }
-        
+
         .icon-box-5 {
             transform: rotate(180deg)
         }
-        
+
         .icon-inner-5 {
             transform: rotateZ(-180deg)
         }
-        
+
         .icon-box-6 {
             transform: rotate(225deg)
         }
-        
+
         .icon-inner-6 {
             transform: rotateZ(-225deg)
         }
-        
+
         .icon-box-7 {
             transform: rotate(270deg)
         }
-        
+
         .icon-inner-7 {
             transform: rotateZ(-270deg)
         }
-        
+
         .icon-box-8 {
             transform: rotate(315deg)
         }
-        
+
         .icon-inner-8 {
             transform: rotateZ(-315deg)
         }
-        
+
         @keyframes rotate {
             0% {
                 transform: rotateZ(0)
@@ -159,11 +155,11 @@
 
         <div class="foot_bar" data-module-index="0">
             <div class="img-container">
-                
+
                 <div class="logo-container">
                     <img src="medallion/icon_00.png" width="128"></img>
                 </div>
-                
+
                 <div class="icons-container">
                     <div class="icon-box icon-box-1">
                         <div class="icon-inner icon-inner-1">
@@ -233,4 +229,3 @@
 
 <br/><br/><br/><hr/>
 ![](images/il_logo.png?style=center20)
-

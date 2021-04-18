@@ -1,11 +1,7 @@
 <link rel="stylesheet" href="../css/images.css" />
 
-Unity and GitHub
-================
-
-
-Instructions for using GitHub with Unity Personal
--------------------------------------------------
+&#x1F4D8; Instructions for using GitHub with Unity Personal
+-----------------------------------------------------------
 
 For Unity Personal, GitHub integration is not included.  This guide explains how to use GitHub with Unity Personal.  The guide is written for Mac users, but the outlined procedure should be similar for Windows users.  A prerequisite for this guide is having the GitHub Desktop application installed on your system.  You may download GitHub Desktop [here](https://desktop.github.com/) .
 
