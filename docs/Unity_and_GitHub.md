@@ -11,7 +11,7 @@ Begin by selecting an existing Unity project that you want to put under GitHub c
 
 For this example, assume we have created a Unity project in the directory
 
-/Users/Laura/Documents/myProject
+`/Users/Laura/Documents/myProject`
 
 Follow the steps below to get the project under GitHub control:
 
@@ -25,8 +25,8 @@ Follow the steps below to get the project under GitHub control:
 
 
 
-1. Enter the *parent* directory of the existing Unity project in the *Local Path* field.  In our example case, that would be “/Users/Laura/Documents”
-2. Enter the name of the existing Unity project directory in the *Name* field.  In our case, that would be “myProject”
+1. Enter the *parent* directory of the existing Unity project in the *Local Path* field.  In our example case, that would be `/Users/Laura/Documents`
+2. Enter the name of the existing Unity project directory in the *Name* field.  In our case, that would be `myProject`
 3. Check the initialize with README box if you want to create a REAME.md for your repository (not required, but a good practice).
 4. Be certain to select Unity in the *Git Ignore* field.  If you neglect to do this, you will have to go find an appropriate .gitignore file to include.  Also, all the superfluous files will be included with the initial import.  Bottom line: *<span style="text-decoration:underline;">don’t forget to do this</span>*.
 5. Click on *Create Repository* to create the repository.
@@ -37,7 +37,7 @@ Done.  If you are logged into your GitHub a/c, you should be immediately able to
 
 **Step 3:** *(optional; for Mac users only)*
 
-Mac users may consider adding the following to their .gitignore files:
+Mac users may consider adding the following to their `.gitignore` files:
 
 
 ```
@@ -52,7 +52,7 @@ Thumbs.db
 ```
 
 
-MacOS generates a number of temporary files (some hidden, some not) that you will not want to add to your repository.  Besides taking up space, these files will make it difficult for you to tell whether the local files you care about are synced to your repository.  To avoid this, simply cut and paste the lines above to the end of your .git file.  
+MacOS generates a number of temporary files (some hidden, some not) that you will not want to add to your repository.  Besides taking up space, these files will make it difficult for you to tell whether the local files you care about are synced to your repository.  To avoid this, simply cut and paste the lines above to the end of your `.gitignore` file.  
 
 
 <br><hr>

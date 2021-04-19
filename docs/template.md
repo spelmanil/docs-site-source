@@ -3,6 +3,7 @@
 &#x1F4D8; Template for creating a new Doc page
 ----------------------------------------------
 
+<!----------------- BEGIN: CUT HERE ----------------->
 Begin with a copy of this file.  Name it appropriately.  Then, create a directory to hold the media associated with the new page.  For consistency, give the directory the same name as your newly created md file.  So, for `template.md`, the directory will be `template`.  Place `template.md` on the root directory (the directory that contains the top-level index.md file.  Add an entry to `mkdocs.yml` that points to your .md file.
 
 Assume we have an image `image1.jpg`.  Put this image in the `template` directory.  Reference the image with a local path `template\image1.jpg` in the following way:
@@ -14,7 +15,7 @@ Assume we have an image `image1.jpg`.  Put this image in the `template` director
 ![Cute Baby](template/image1.jpg?style=center50)
 
 The `Alt text` can be empty.  The style has values like `center50`, `right30`, `left10`, `scale70`, etc.  For these examples, the respective results would be "image is centered and scaled at 50%", "image is right-aligned and scaled at 30%", "image is left aligned and scaled at 10%" and "image is scaled at 70%".
-*Note that in order to use these image style values, you must link to the appropriate `css file` at the top of your md file:*
+*Note that in order to use these image style values, you must link to the appropriate css file at the top of your md file:*
 
 ```
 <link rel="stylesheet" href="../css/images.css" />
@@ -41,6 +42,8 @@ UP-POINTING RED TRIANGLE: &#x1F53A;
 DOWN-POINTING RED TRIANGLE: &#x1F53B;  
 UP-POINTING SMALL RED TRIANGLE: &#x1F53C;  
 DOWN-POINTING SMALL RED TRIANGLE: &#x1F53D;  
+
+<!----------------- END: CUT HERE ----------------->
 
 <br><hr>
 

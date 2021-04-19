@@ -12,7 +12,7 @@ This is a 2-part guide.  It covers how to download humanoid characters and anima
 <a href=https://en.wikipedia.org/wiki/Skeletal_animation>https://en.wikipedia.org/wiki/Skeletal_animation</a>
 
 </div>
-
+<br/>
 We will download characters and animations separately.  That way, we can download our characters one time, then apply any future animation we want to that character.
 
 I recommend creating a mixamo folder somewhere on your hard drive to store your character, if you want to use the same character in multiple projects.  This folder should be outside of any Unity project.  Give it any name you choose.  Assets stored here will be project independent.  We will refer to this folder as your “mixamo folder”.  Tip: You will want to organize this folder into sub-folders by character and animation.
@@ -82,7 +82,7 @@ Downloading Animations From Mixamo
 
 
 *   Select the animation you wish to download
-*   If the animation has a _root transform_, you will see an “In Place” checkbox as part of the animation option.  If unsure, select this as shown in the image below.  A root transform causes the animation to automatically translate during the course of the animation.  For example, a root transformation would cause walking animation to actually travel.  Selecting “In Place” causes the animation to cycle without displacing the character.  This is probably the behavior you want.
+*   If the animation has a _root transform_, you will see an “In Place” checkbox as part of the animation option.  If unsure, select this as shown in the image below.  A root transform causes the animation to automatically translate during the course of the animation.  For example, a root transformation would cause a walking animation to actually travel.  Selecting “In Place” causes the animation to cycle without displacing the character.  This is probably the behavior you want.
 
 
 ![](mixamo_characters_and_animations/check_in_place.png?style=center50)
