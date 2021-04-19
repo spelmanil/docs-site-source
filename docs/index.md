@@ -1,10 +1,7 @@
 <link rel="stylesheet" href="css/images.css" />
-
-![](images/il_logo.png?style=scale30)
-
-
+<div style="color:#2c70ba">
 <h1 align="center">Spelman Innovation Lab Documentation</h1>
-
+</div>
 <h2 align="center"><i>Welcome!</i></h2>
 
 <!--------- BEGIN: Draw the medallion --------->
@@ -225,7 +222,6 @@
 
 <!--------- END: Draw the medallion --------->
 
-
-
-<br/><br/><br/><hr/>
-![](images/il_logo.png?style=center20)
+<br/><hr/>
+![](images/il_logo.png?style=left30)
+![](images/doed_logo.png?style=right10)

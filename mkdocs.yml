@@ -11,4 +11,5 @@ theme:
 nav:
     - Home: index.md
     - Unity & GitHub: Unity_and_GitHub.md
+    - Mixamo Characters and Animations: mixamo_characters_and_animations.md
     - Template: template.md
