@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../css/images.css" />
 
 &#x1F4D8; Template for creating a new Doc page
-----------------------------------------------
+==============================================
 
 <!----------------- BEGIN: CUT HERE ----------------->
 Begin with a copy of this file.  Name it appropriately.  Then, create a directory to hold the media associated with the new page.  For consistency, give the directory the same name as your newly created md file.  So, for `template.md`, the directory will be `template`.  Place `template.md` on the root directory (the directory that contains the top-level index.md file.  Add an entry to `mkdocs.yml` that points to your .md file.
@@ -20,6 +20,19 @@ The `Alt text` can be empty.  The style has values like `center50`, `right30`, `
 ```
 <link rel="stylesheet" href="../css/images.css" />
 ```
+
+!!! warning
+    This is a warning for you.
+
+!!! note
+    This is a note for you.
+
+!!! danger
+    This is a danger notice for you.
+
+!!! important
+    This is an important message for you.
+
 
 A few interesting Unicodes:  
 

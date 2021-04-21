@@ -6,12 +6,11 @@
 This is a 2-part guide.  It covers how to download humanoid characters and animations from the website mixamo.com.  I believe all the mixamo characters are humanoid, meaning that they are all _rigged_ in the same way.
 
 
-<div style="background-color:lightblue; padding:20px">
-<i><b>Skeletal animation</b></i> or <i><b>rigging</b></i> is a technique in computer animation in which a character (or other articulated object) is represented in two parts: a surface representation used to draw the character, called the <i>mesh</i> or <i>skin</i> and a hierarchical set of interconnected parts called <i>bones</i>, <i>skeleton</i> or <i>rig</i>.
-<br/><br/>
-<a href=https://en.wikipedia.org/wiki/Skeletal_animation>https://en.wikipedia.org/wiki/Skeletal_animation</a>
+!!! note
+    ***Skeletal animation*** or ***rigging*** is a technique in computer animation in which a character (or other articulated object) is represented in two parts: a surface representation used to draw the character, called the *mesh* or *skin* and a hierarchical set of interconnected parts called *bones*, *skeleton* or *rig*.<br/><br/>
+    [href=https://en.wikipedia.org/wiki/Skeletal_animation](https://en.wikipedia.org/wiki/Skeletal_animation)<br/><br/>
 
-</div>
+
 <br/>
 We will download characters and animations separately.  That way, we can download our characters one time, then apply any future animation we want to that character.
 
