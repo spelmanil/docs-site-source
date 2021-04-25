@@ -16,4 +16,5 @@ nav:
     - Unity & GitHub: Unity_and_GitHub.md
     - Mixamo Characters and Animations: mixamo_characters_and_animations.md
     - Creating Controllable Characters with Unity Standard Assets: controllable_char_with_SA.md
+    - Instructions for fixing missing mixamo character textures: fixing_missing_textures.md
     - Template: template.md
