@@ -90,8 +90,7 @@ In this part, we will replace Ethan with a character of our choice.
 
     |  |  |  |
     |:---:|:---:|:---:|
-    |![](controllable_char_with_SA/louis_and_ethan_hierarchy.png?style=scale90)||![](controllable_char_with_SA/louise_hierarchy.png?style=scale90)|  
-    |Step 3||Step 4|
+    |![](controllable_char_with_SA/louis_and_ethan_hierarchy.png?style=scale90) Step 3||![](controllable_char_with_SA/louise_hierarchy.png?style=scale90) Step 4|  
 
     <br/>
 
