@@ -19,4 +19,6 @@ nav:
     - Mixamo Model Texture & Shading Problems: mixamo_texture_and_shading_problems.md
     - Instructions for fixing missing mixamo character textures: fixing_missing_textures.md
     - Instructions for creating a simple 1d animation blend in Unity: 1d_animation_blends.md
-    - Template: template.md
+    - Building a 2D RPG World in Unity: Buildinga2DRPGWorldinUnity.md
+    - Understanding Textures, Materials and Shaders: textures_materials_shaders.md
+#    - Template: template.md
