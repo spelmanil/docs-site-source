@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/images.css" />
+<link rel="stylesheet" href="../../css/images.css" />
 
 &#x1F4D8; Instructions for using GitHub with Unity Personal
 -----------------------------------------------------------
@@ -57,4 +57,4 @@ MacOS generates a number of temporary files (some hidden, some not) that you wil
 
 <br><hr>
 
-![](images/il_logo.png?style=center20)
+![](../images/il_logo.png?style=center20)

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/images.css" />
+<link rel="stylesheet" href="../../css/images.css" />
 
 &#x1F4D8; Steps for Building a 2D RPG World in Unity
 ==============================================

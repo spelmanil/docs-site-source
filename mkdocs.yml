@@ -13,12 +13,6 @@ markdown_extensions:
 
 nav:
     - Home: index.md
-    - Unity & GitHub: Unity_and_GitHub.md
-    - Mixamo Characters and Animations: mixamo_characters_and_animations.md
-    - Creating Controllable Characters with Unity Standard Assets: controllable_char_with_SA.md
-    - Mixamo Model Texture & Shading Problems: mixamo_texture_and_shading_problems.md
-    - Instructions for fixing missing mixamo character textures: fixing_missing_textures.md
-    - Instructions for creating a simple 1d animation blend in Unity: 1d_animation_blends.md
-    - Building a 2D RPG World in Unity: Buildinga2DRPGWorldinUnity.md
-    - Understanding Textures, Materials and Shaders: textures_materials_shaders.md
+    - IL Programs: il_programs/il_programs.md
+    - SpelmanVR: unity/unity.md
 #    - Template: template.md

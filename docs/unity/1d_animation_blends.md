@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/images.css" />
+<link rel="stylesheet" href="../../css/images.css" />
 
 &#x1F4D8; Instructions for creating a simple 1d animation blend in Unity
 ========================================================================
@@ -142,4 +142,4 @@ public class SetInjury : MonoBehaviour
 
 <br><hr>
 
-![](images/il_logo.png?style=center20)
+![](../images/il_logo.png?style=center20)

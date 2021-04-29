@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/images.css" />
+<link rel="stylesheet" href="../../css/images.css" />
 
 &#x1F4D8; Creating Controllable Characters with Unity Standard Assets
 =======================================================================
@@ -110,4 +110,4 @@ In this part, we will replace Ethan with a character of our choice.
 
 <br><hr>
 
-![](images/il_logo.png?style=center20)
+![](../images/il_logo.png?style=center20)

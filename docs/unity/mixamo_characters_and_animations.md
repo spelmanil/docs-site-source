@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/images.css" />
+<link rel="stylesheet" href="../../css/images.css" />
 
 &#x1F4D8; Mixamo Characters and Animations
 ==========================================
@@ -142,4 +142,4 @@ Select the instance of the character asset in the Hierarchy window to bring up t
 
 <br><hr>
 
-![](images/il_logo.png?style=center20)
+![](../images/il_logo.png?style=center20)

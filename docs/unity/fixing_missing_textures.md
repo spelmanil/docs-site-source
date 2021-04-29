@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/images.css" />
+<link rel="stylesheet" href="../../css/images.css" />
 
 &#x1F4D8; Instructions for fixing missing mixamo character textures
 ===================================================================
@@ -31,4 +31,4 @@ If everything went right, your model should now be properly textured.  If a dial
 
 <br><hr>
 
-![](images/il_logo.png?style=center20)
+![](../images/il_logo.png?style=center20)
